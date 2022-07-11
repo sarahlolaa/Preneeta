@@ -21,3 +21,11 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+
+# Original design documents and test file
+src/components/grade-resources/LoginPage.vue
+src/components/grade-resources/RecordSubject.vue
+src/components/grade-resources/textFile.txt
+src/components/grade-resources/textHomeFile.txt
+src/components/grade-resources/usersInfo.txt

@@ -1,26 +1,33 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <all-pages></all-pages>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AllPages from "./components/grade-resources/AllPages.vue";
+
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+	name: "App",
+	components: {
+    AllPages
+	},
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+/* @import url('https://fonts.googleapis.com/css2?family=Faustina&family=Merriweather&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Faustina&family=Merriweather&family=Tapestry&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Faustina', 'Merriweather', serif, sans-serif;
+}
+
+html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
+
 </style>
