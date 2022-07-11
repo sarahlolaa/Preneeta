@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import HomePage from "./components/grade-resources/HomePage.vue";
 import SubjectPage from "./components/grade-resources/SubjectPage.vue";
-import MathsPage from "./components/grade-resources/RecordSubject.vue";
-import EnglishPage from "./components/grade-resources/RecordSubject.vue";
+import MathsPage from "./components/grade-resources/MathsPage.vue";
+import EnglishPage from "./components/grade-resources/EnglishPage.vue";
 
 
 const router = createRouter({

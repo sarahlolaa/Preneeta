@@ -12,8 +12,13 @@
             <img/>
             <ul class="uppercase text-sm my-2">
             subjects
-            <router-link to="/subject/mathematics" class="uppercase text-xs ml-2 my-3">mathematics</router-link>
-            <router-link to="/subject/english" class="uppercase text-xs ml-2 my-3">englis</router-link>
+            <li>
+                <router-link to="/subject/mathematics" class="uppercase text-xs ml-2 my-3">mathematics</router-link>
+            </li>
+            
+            <li>
+                <router-link to="/subject/english" class="uppercase text-xs ml-2 my-3">english</router-link>
+            </li>
             <li v-for="subject in subjects"
                 :key="subject.id">
                 <router-link to="/subject" class="uppercase text-xs ml-2 my-3">{{subject.subject}}</router-link>
